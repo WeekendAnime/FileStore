@@ -55,7 +55,7 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("ᴡᴀɪᴛ ʙʀᴏᴏ...")
+        temp_msg = await message.reply("Wαιт вяσ/ѕιѕ...")
         try:
             messages = await get_messages(client, ids)
         except:
@@ -88,8 +88,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('🍁 sᴇʀɪᴇsғʟɪx', url='https://t.me/Team_Netflix/40')
+                    InlineKeyboardButton("⚡️ Aвσυт", callback_data = "about"),
+                    InlineKeyboardButton('🍁 Aиιмє ωєєкєи∂ѕ', url='https://t.me/Anime_Weekends')
                 ]
             ]
         )
@@ -134,7 +134,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = '• ɴᴏᴡ ᴄʟɪᴄᴋ ʜᴇʀᴇ •',
+                    text = '• Nσω cℓι¢к нєяє •',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
