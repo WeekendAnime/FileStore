@@ -62,7 +62,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @Jeffrey_Weekends"
+USER_REPLY_TEXT = "Aяα ! уσυя αяє иσт му ѕєиραι!!\n\n» Mу ѕєиραι ❤ : @Jeffrey_Weekends"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6266529037)
