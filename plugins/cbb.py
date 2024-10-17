@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Sєиραι : <a href='tg://user?id={OWNER_ID}'>Jҽϝϝɾҽყ ʂαɱα</a>\n○ Aиιмє ωєєкєи∂ѕ : <a href='https://t.me/Anime_Weekends'>ᴄᴏᴅᴇғʟɪx ʙᴏᴛs</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Team_Netflix'>ᴛᴇᴀᴍ ɴᴇᴛғʟɪx</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/otakuflix_network'>ᴏᴛᴀᴋᴜғʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴀɴɪᴍᴇ ᴄʜᴀᴛ : <a href='https://t.me/weebzonex'>ᴡᴇᴇʙ ᴢᴏɴᴇ</a></b>",
+            text = f"<b>○ Sєиραι : <a href='tg://user?id={OWNER_ID}'>Jҽϝϝɾҽყ ʂαɱα</a>\n○ Aиιмє ωєєкєи∂ѕ : <a href='https://t.me/Anime_Weekends'>Cℓιcк нєяє</a>\n○ Oиgσιиg ωєєкєи∂ѕ : <a href='https://t.me/Ongoing_Weekends'>Cℓιcк нєяє</a>\n○ Mσνιє ωєєкєи∂ѕ : <a href='https://t.me/movie_dist'>Cℓιcк нєяє</a>\n○ Wєєкєи∂ѕ ωєєвѕ : <a href='https://t.me/Weebs_Weekends'>Cℓιcк нєяє</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
